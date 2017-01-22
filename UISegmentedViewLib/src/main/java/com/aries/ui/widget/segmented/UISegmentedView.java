@@ -262,7 +262,7 @@ public class UISegmentedView extends RadioGroup {
             this.addView(option);
         }
 
-        this.setOnCheckedChangeListener(selectionChangedlistener);
+        this.setOnCheckedChangeListener(selectionChangedListener);
 
         if (defaultSelection > -1) {
             this.check(((RadioButton) getChildAt(defaultSelection)).getId());
@@ -316,11 +316,11 @@ public class UISegmentedView extends RadioGroup {
      * Used to pass along the selection change event
      * Calls onSelectionChangedListener with identifier and value of selected segment
      */
-    private OnCheckedChangeListener selectionChangedlistener = new OnCheckedChangeListener() {
+    private OnCheckedChangeListener selectionChangedListener = new OnCheckedChangeListener() {
         @Override
         public void onCheckedChanged(RadioGroup group, int checkedId) {
             if (mListener != null) {
-                mListener.newSelection(group.indexOfChild(group.findViewById(checkedId)), identifier, itemMap.get(((RadioButton) group.findViewById(checkedId)).getText().toString()));
+                mListener.onSelectionChanged(group.indexOfChild(group.findViewById(checkedId)), itemMap.get(((RadioButton) group.findViewById(checkedId)).getText().toString()));
             }
 
         }
@@ -330,7 +330,7 @@ public class UISegmentedView extends RadioGroup {
      * Interface for for the selection change event
      */
     public interface OnSelectionChangedListener {
-        public void newSelection(int index, String identifier, String value);
+        public void onSelectionChanged(int position, String value);
     }
 
     /**
