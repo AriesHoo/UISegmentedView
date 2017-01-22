@@ -17,7 +17,7 @@ allprojects {
 
 ```
 dependencies {
-     compile 'com.github.AriesHoo:UISegmentedtView:1.0.0'
+     compile 'com.github.AriesHoo:UISegmentedView:1.0.0'
 }
 ```
 
