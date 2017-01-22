@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="UISegmentedView">
+        <attr name="unselectedTextColor" format="reference"/>
+        <attr name="unselectedColor" format="reference"/>
+        <attr name="selectedColor" format="reference"/>
+        <attr name="selectedTextColor" format="reference"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="stroke" format="dimension"/>
+        <attr name="items" format="reference"/>
+        <attr name="values" format="reference"/>
+        <attr name="equalWidth" format="boolean"/>
+        <attr name="stretch" format="boolean"/>
+        <attr name="defaultSelection" format="integer"/>
+        <attr name="identifier" format="string"/>
+    </declare-styleable>
+</resources>

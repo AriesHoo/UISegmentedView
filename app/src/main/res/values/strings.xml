@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UISegmentedView</string>
+    <string-array name="array_items">
+        <item>item0</item>
+        <item>item1</item>
+        <item>item2</item>
+    </string-array>
+</resources>

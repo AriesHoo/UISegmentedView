@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_segmented_selected_color">#0099CC</color>
+    <color name="default_segmented_unselected_color">#FFFFFF</color>
+    <color name="default_unselected_text_color">#0066CC</color>
+    <color name="default_selected_text_color">#FFFFFF</color>
+    <color name="default_selected_color">#0066CC</color>
+    <color name="default_unselected_color">#FFFFFF</color>
+</resources>

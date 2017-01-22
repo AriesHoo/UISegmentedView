@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="segment_padding_left_right">10dp</dimen>
+    <dimen name="segment_padding_top_bottom">5dp</dimen>
+    <dimen name="segment_stroke">1dp</dimen>
+    <dimen name="segment_radius">5dp</dimen>
+</resources>
