@@ -27,4 +27,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.1.0'
     testCompile 'junit:junit:4.12'
     compile project(':UISegmentedViewLib')
+//    compile 'com.github.AriesHoo:UISegmentedView:1.0.2'
 }
