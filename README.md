@@ -1,6 +1,6 @@
-#UISegmentedView
+# UISegmentedView
 --------------------------
-####一、简介：
+#### 一、简介：
 
 一个分段选择控件，支持样颜色及弧度设置
 
@@ -21,5 +21,6 @@ dependencies {
 }
 ```
 
-####二、截图预览
+#### 二、截图预览
+
 ![](https://github.com/AriesHoo/UISegmentedView/blob/master/screenshot/00.png)
